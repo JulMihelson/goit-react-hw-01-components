@@ -1,28 +1,18 @@
 import './Statistics.css'
+import { Stats } from './Stats';
 
 
-export const Statistics = ({statInfo }) => {
-    const { title, stats } = statInfo
+
+
+export const Statistics = ({data, title}) => {
+   console.log("check", data);
     return (
-        <section class="statistics">
-            {title (<h2 class="title">Upload stats</h2>) }
-    <ul class="stat-list">
-    <li class="item">
-      <span class="label">.docx</span>
-      <span class="percentage">4%</span>
-    </li>
-    <li class="item">
-      <span class="label">.mp3</span>
-      <span class="percentage">14%</span>
-    </li>
-    <li class="item">
-      <span class="label">.pdf</span>
-      <span class="percentage">41%</span>
-    </li>
-    <li class="item">
-      <span class="label">.mp4</span>
-      <span class="percentage">12%</span>
-    </li>
+        <section className="statistics">
+            {title && (<h2 className="title">{title}</h2>) }
+            <ul className="stat-list">
+                
+               {data.map((element)=>(<Stats key={element.id} element={element}/>)
+              )} 
   </ul>
 </section>
     )

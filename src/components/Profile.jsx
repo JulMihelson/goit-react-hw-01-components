@@ -4,32 +4,32 @@ import './Profile.css'
 export const Profile = ({ username, location, tag, avatar, stats }) => {
     
     return (
-        <div class="profile">
-            <div class="description">
+        <div className="profile">
+            <div className="description">
                 <img
                     src={avatar}
                     alt={username}
-                    class="avatar"
+                    className="avatar"
                 />
-                <div class="user-info">
-                <p class="name">{username}</p>
-                <p class="tag">@{tag}</p>
-                    <p class="location">{location}</p>
+                <div className="user-info">
+                <p className="name">{username}</p>
+                <p className="tag">@{tag}</p>
+                    <p className="location">{location}</p>
                     </div>
             </div>
 
-            <ul class="stats">
-                <li class="stat-type">
-                    <span class="label">Followers</span>
-                    <span class="quantity">{stats.followers}</span>
+            <ul className="stats">
+                <li className="stat-type">
+                    <span className="label">Followers</span>
+                    <span className="quantity">{stats.followers}</span>
                 </li>
-                <li class="stat-type">
-                    <span class="label">Views</span>
-                    <span class="quantity">{stats.views}</span>
+                <li className="stat-type">
+                    <span className="label">Views</span>
+                    <span className="quantity">{stats.views}</span>
                 </li>
-                <li class="stat-type">
-                    <span class="label">Likes</span>
-                    <span class="quantity">{stats.likes}</span>
+                <li className="stat-type">
+                    <span className="label">Likes</span>
+                    <span className="quantity">{stats.likes}</span>
                 </li>
             </ul>
         </div>

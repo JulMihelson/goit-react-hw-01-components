@@ -1,7 +1,7 @@
 import Profile from "./Profile";
 import user from '../../src/user.json';
-import Statistics from "./Statistics";
 import data from '../../src/data.json';
+import { Statistics } from "./Statistics";
 
 export const App = () => {
   return (
@@ -9,6 +9,7 @@ export const App = () => {
       style={{
         height: '100vh',
         display: 'flex',
+        flexDirection: "column",
         justifyContent: 'center',
         alignItems: 'center',
         fontSize: 40,
@@ -21,11 +22,12 @@ export const App = () => {
         location={user.location}
         avatar={user.avatar}
         stats={user.stats}
-       
       />
+      
       <Statistics
-        title={data.title}
-      stats={data.stats}/>
+        title={"UPLOAD STATS"}
+        data={data}
+     />
     </div>
   );
 };

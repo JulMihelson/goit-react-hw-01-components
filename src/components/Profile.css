@@ -1,22 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap');
+
 .profile {
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 2px gray;
+  border: 2px solid;
+  border-color: grey;
+  border-radius: 8px 8px 0px 0px;
+  margin: 0;
+  padding: 0;
 }
 .description {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding-top: 30px;
+  text-align: center;
+  margin-bottom: 100px;
 }
-.user-info {
-  justify-content: center;
+.tag {
+  font-size: 28px;
+  color: grey;
+  font-style: italic;
+}
+.location {
+  font-size: 28px;
+  color: grey;
+  font-style: italic;
+}
+.label {
+  font-size: 28px;
+  color: grey;
+  font-style: italic;
+}
+.quantity {
+  font-size: 28px;
+  font-weight: 900;
 }
 .stats {
-  list-style: none;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  width: 512px;
+  height: 80px;
   display: flex;
-  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  border-radius: 8px;
 }
 .stat-type {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: calc(100% / 3);
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  border-color: grey;
+  background-color: azure;
 }

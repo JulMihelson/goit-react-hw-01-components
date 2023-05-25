@@ -12,7 +12,7 @@ export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',
+       minHeight: '100vh',
         display: 'flex',
         flexDirection: "column",
         justifyContent: 'center',
@@ -41,9 +41,8 @@ export const App = () => {
     
 
     <TransactionHistory
-    id={items.id}
-type ={items.type}
-        amount={items.amount} />
+   items={items} />
+      
       </div>
   );
 };

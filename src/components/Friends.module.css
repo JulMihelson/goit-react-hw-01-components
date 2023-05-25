@@ -1,0 +1,28 @@
+.friendlist {
+  width: 100%;
+  column-count: 3;
+}
+.isOnline {
+  color: green;
+  font-weight: 900;
+}
+.isOffline {
+  color: red;
+  font-weight: 900;
+}
+.iconSmile {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+.iconSad {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}

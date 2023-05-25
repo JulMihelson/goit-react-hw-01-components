@@ -1,0 +1,12 @@
+.friend-list {
+  width: 100%;
+  column-count: 3;
+}
+.isOnline {
+  color: green;
+  font-weight: 900;
+}
+.isOffline {
+  color: red;
+  font-weight: 900;
+}

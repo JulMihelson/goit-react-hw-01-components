@@ -1,6 +1,7 @@
 import css from './Friends.module.css';
 import symbolDefs from './symbol-defs.svg'
 
+
 export const friendStatus = (element) => {
   const { isOnline } = element;
   if (isOnline) {
@@ -18,3 +19,4 @@ export const friendStatus = (element) => {
     );
   }
 };
+

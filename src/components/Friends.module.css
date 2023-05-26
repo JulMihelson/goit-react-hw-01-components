@@ -1,14 +1,15 @@
 .friendlist {
+  display: flex;
+  justify-content: center;
   width: 100%;
-  column-count: 3;
+  gap: 40px;
+  margin-top: 40px;
 }
-.isOnline {
-  color: green;
-  font-weight: 900;
+.smile {
+  fill: green;
 }
-.isOffline {
-  color: red;
-  font-weight: 900;
+.sad {
+  fill: red;
 }
 .iconSmile {
   display: inline-block;

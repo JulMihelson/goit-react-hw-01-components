@@ -35,9 +35,8 @@ export const App = () => {
       />
       
       <FriendsList
-    avatar={friends.avatar}
-    name={friends.name}
-    online = {friends.isOnline}/>
+    friends={friends}
+    />
     
 
     <TransactionHistory

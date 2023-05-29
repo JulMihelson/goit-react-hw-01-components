@@ -1,4 +1,4 @@
-import css from './Friends.module.css'
+import css from '../Friends/Friends.module.css'
 import PropTypes from 'prop-types'
 
 import { Friend } from './Friend'

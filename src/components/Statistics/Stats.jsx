@@ -1,4 +1,4 @@
-import css from './Statistics.module.css'
+import css from '.././Statistics/Statistics.module.css'
 
 export const Stats = ({ element }) => {
 console.log("checking", element);

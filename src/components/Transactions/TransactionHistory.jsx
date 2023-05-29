@@ -1,4 +1,4 @@
-import { TransactionEach } from './TransactionEach';
+import { TransactionEach } from '../Transactions/TransactionEach';
 import PropTypes from 'prop-types';
 
 export const TransactionHistory = ({ items }) => {

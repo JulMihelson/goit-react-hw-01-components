@@ -1,5 +1,5 @@
-import css from './Friends.module.css';
-import symbolDefs from './symbol-defs.svg'
+import css from '../Friends/Friends.module.css';
+import symbolDefs from '../../data/selection.json'
 
 
 export const friendStatus = (element) => {

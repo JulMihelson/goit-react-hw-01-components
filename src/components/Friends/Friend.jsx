@@ -1,7 +1,7 @@
 import React from 'react';
 import defaultImage from '../defaultImage.jpg';
-import css from './Friends.module.css';
-import { friendStatus } from './FriendStatus';
+import css from '../Friends/Friends.module.css';
+import { friendStatus } from '../Friends/FriendStatus';
 
 export const Friend = ({ element }) => {
   console.log('element', element);
